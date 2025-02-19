@@ -28,8 +28,7 @@
 <div th:each="bridge : ${bridgeList}" class="grid">
   <div class="box">
     <h2 th:text="${bridge.name}"></h2>
-    <img src="@{'../static/' + ${bridge.imageFileName}}" th:src="@{${bridge.imageFileName}}" alt="Image of bridge">
-<!--    <a th:href="@{'/bridge/' + '?name=' + ${bridge.getName()} }">Show more</a>-->
+    <img th:src="@{${bridge.imageFileName}}" alt="Image missing">
     <a th:href="@{'/bridge?name=' + ${bridge.name}}">Show more</a>
   </div>
 </div>
