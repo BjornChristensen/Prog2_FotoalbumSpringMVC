@@ -36,6 +36,7 @@ public class BridgeRepository {
                         "  Broen har et sydtårn og et nordtårn, der er udformet i stil med\n" +
                         "  Tower of London, som ligger lige ved siden af.\n" +
                         "  Wikipedia"));
+        bridgeList.add(new Bridge("x","x","x"));
     }
 
     public List<Bridge> getAllBridges(){
